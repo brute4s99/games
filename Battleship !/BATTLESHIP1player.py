@@ -51,7 +51,7 @@ while guesses>0 and hit_count < ship_length:
         else:
             print "CHEAT ACTIVATED !!!\nIt's in Column "+str(ship_startcol+1)
         guesses+=1
-    elif guess=="hinttohde":                       # CHEAT CODE FOR ORIENTATION REVELATION  
+    elif guess=="giveahint":                       # CHEAT CODE FOR ORIENTATION REVELATION  
         if orientation==0:
             print "CHEAT ACTIVATED !!!\nIt's Horizontally Placed."
         else:
