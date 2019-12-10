@@ -8,7 +8,7 @@ from random import randint
         guesses
         guess
 """
-comments=["Show'em who's the boss ! \n;)","Storm the Seas !","AAg lagaa de , AAg lagaa de ! \n:p","Sweet !\n","Lucky Guess ...","Go get'em !"]
+comments=["Show'em who's the boss ! \n;)","Storm the Seas !","Sweet !\n","Lucky Guess ...","Go get'em !"]
 print "BATTLESHIP !!!"
 dim=int(raw_input("Board Size : "))
 p1_board =[]
