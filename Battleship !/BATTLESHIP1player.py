@@ -8,7 +8,7 @@ from random import randint
         guesses
         guess
 """
-comments=["Show'em who's the boss ! \n;)","Storm the Seas !","AAg lagaa de , AAg lagaa de ! \n:p","Sweet !\n","Lucky Guess ...","Go get'em !"]
+comments=["Show'em who's the boss ! \n;)","Storm the Seas !","Sweet !\n","Lucky Guess ...","Go get'em !"]
 print "BATTLESHIP !!!"
 
 board =[]
@@ -61,7 +61,6 @@ while guesses>0 and hit_count < ship_length:
         x=int(guess[0])-1
         y=int(guess[2])-1
         if x not in range(0,dim) or y not in range(0,dim):
-            print "DON'T YOU FUCK WITH ME !!!!!"
             print "Guesses Left : "+str(guesses)
         elif list(str(x)+str(y)) in ship_coordinates:
             print "\nTHAT'S A HIT !!!"
